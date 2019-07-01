@@ -1,0 +1,17 @@
+[package]
+name = "event_logger"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies.winit]
+git = "https://github.com/mb64/winit.git"
+branch = "android-eventloop-2.0"
+
+[patch.crates-io.android_glue]
+git = "https://github.com/mb64/android-rs-glue.git"
+branch = "event-User"
+
+[package.metadata.android]
+label = "Winit Event Logger"
+build_targets = ["aarch64-linux-android"]
+android_version = 21
