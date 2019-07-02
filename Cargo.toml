@@ -8,8 +8,7 @@ git = "https://github.com/mb64/winit.git"
 branch = "android-eventloop-2.0"
 
 [patch.crates-io.android_glue]
-git = "https://github.com/mb64/android-rs-glue.git"
-branch = "event-User"
+git = "https://github.com/rust-windowing/android-rs-glue.git"
 
 [package.metadata.android]
 label = "Winit Event Logger"
